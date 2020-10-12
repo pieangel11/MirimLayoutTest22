@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         linear1.setBackgroundColor(Color.rgb(181, 178, 255));
         linear1.setOrientation(LinearLayout.VERTICAL);
 
-/*        Button btn = new Button(this);
+        Button btn = new Button(this);
         btn.setText("클릭해 보세요~");
         btn.setBackgroundColor(Color.rgb(128, 65,217));
         btn.setTextColor(Color.WHITE);
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "Java 코드로 작성한 버튼 입니다.", Toast.LENGTH_LONG).show();
             }
-        });*/
+        });
 
         setContentView(linear1, params);
     }
